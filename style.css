@@ -1,0 +1,1872 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Start Navbar */
+nav{
+    background-color:white;
+    height: 200px;
+}
+.nav-up{
+    margin:60px 20px 0px 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-nav i{
+    font-size: 18px;
+    color: gray;
+    padding: 25px;
+}
+.search{
+    border: none;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.2s ease-in;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.search:hover{
+   padding-left: 10px;
+}
+.search:focus{
+    outline: none;
+}
+.mid-nav{
+   border-style: solid;
+    border-color: black;
+    padding: 10px;
+    margin-right: 200px;
+}
+.mid-nav h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgb(163, 154, 154); 
+     
+}
+.right-nav a{
+    text-decoration: none;
+    color: gray;
+    padding: 8px;
+    transition: all 0.2s ease-in-out;
+    font-size: 20px;
+}
+.right-nav a:hover {
+    
+   color: black;
+}
+.right-nav{
+    margin-right: 90px;
+}
+hr{
+    border-top:  rgb(207, 205, 205);
+    margin-top: 50px;
+
+}
+.nav-down{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 350px;
+    margin-left: 350px;
+}
+.nav-down a{
+    text-decoration: none;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 15px
+}
+.nav-down a:hover{
+    color: blueviolet;
+}
+.nav-down i{
+    margin-left: 5px;
+}
+/*End Navbar */
+
+/*Start first section*/
+.first-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(162, 241, 241);
+    height: 600px;
+    margin-top: -10px;
+}
+.first-sec img{
+    width: 800px;
+}
+.textfirstsec{
+    margin-top: -200px;
+}
+.first-sec h1{
+    margin-right: 250px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first-sec p{
+    margin-top: 20px;
+    font-size:20px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button-shop {
+    appearance: none;
+    background-color:blueviolet;
+    border:  #1A1A1A;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: normal;
+    margin-top:50px;
+    min-height: 60px;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    width: 200px;
+    will-change: transform;
+  }
+  .button-shop:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  background-image: linear-gradient(rgb(0 0 0/10%) 0 0);
+  }
+  /*End first section*/
+
+  /*Start mini section*/
+  .mini-sec{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    height: 300px;
+    margin-right: 150px;
+    margin-left: 150px;
+    
+  }
+  .minisecleft {
+    position: absolute;
+  }
+  .minisecleft  i{
+    color: blueviolet;
+    font-size: 50px;
+     position: absolute;
+     left: -100px;
+     bottom: 20px;
+     right: 320px;
+  }
+  .minisecleft h4{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+  }
+  .minisecleft p{
+   margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(186, 182, 182);
+  }
+  .minisecmid {
+    position: absolute;
+    left: 600px;
+   
+
+  }
+  .minisecmid i{
+    color: blueviolet;
+    font-size: 50px;
+     position: absolute;
+     left: -70px;
+     bottom: 20px;
+     right: 400px;
+  }
+  .minisecmid h4{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+  }
+  .minisecmid p{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(186, 182, 182);
+  }
+ .minisecright {
+    position: absolute;
+    left: 1050px;
+ }
+ .minisecright i{
+    color: blueviolet;
+    font-size: 50px;
+     position: absolute;
+     left: -70px;
+     bottom: 20px;
+ }
+ .minisecright h4{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+ }
+ .minisecright p{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(186, 182, 182);
+ }
+ /*Start mini section*/
+
+
+ .secondhr {
+    margin-top:-30px;
+    margin-bottom: 90px;
+ }
+ /*Start Categories section*/
+ .categories{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:150px ;
+    margin-right:150px ;
+ }
+ .categories img{
+    width: 350px;
+
+    
+ }
+ .women{
+    position: relative;
+ } 
+ .women img{
+    filter: brightness(70%);
+    transition:all .5s ease-in-out;
+ }
+ .women img:hover{
+    transform: scale(1.1);
+ }
+ .women p{
+    font-family: Arial, Helvetica, sans-serif;
+    position:absolute ;
+    bottom: 70px;
+    left: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+ }
+ .women h4{
+    font-family: Arial, Helvetica, sans-serif;
+    position:absolute ;
+    bottom: 20px;
+    left: 10px;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+ }
+ .child {
+    position: relative;
+ }
+ .child img{
+    filter: brightness(70%);
+    transition:all .5s ease-in-out;
+ }
+ .child img:hover{
+    transform: scale(1.1);
+ }
+ .child p{
+    font-family: Arial, Helvetica, sans-serif;
+    position:absolute ;
+    bottom: 70px;
+    left: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+ }
+ .child h4{
+    font-family: Arial, Helvetica, sans-serif;
+    position:absolute ;
+    bottom: 20px;
+    left: 10px;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+ }
+ .men{
+    position: relative;
+ }
+ .men img{
+    filter: brightness(70%);
+    transition:all .5s ease-in-out;
+ }
+ .men img:hover{
+    transform: scale(1.1);
+}
+ .men p{
+    font-family: Arial, Helvetica, sans-serif;
+    position:absolute ;
+    bottom: 70px;
+    left: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+ }
+ .men h4{
+    font-family: Arial, Helvetica, sans-serif;
+    position:absolute ;
+    bottom: 20px;
+    left: 10px;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+ }
+ /*End Categories section*/
+
+ /*Start Products section*/
+ .titleproducts{
+    background-color: rgb(230, 230, 230);
+    margin-top: 70px;
+    height: 720px;
+ }
+ .titleproducts h2{
+    padding-top: 60px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: overline ;
+    text-decoration-color: blueviolet;
+    text-decoration-thickness:3px ;
+    font-size: 30px;
+ }
+ .products{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:90px ;
+    margin-right:90px ;
+ }
+ .tanktop{
+    width: 400px;
+    height: 450px;
+    background-color: white;
+ }
+ .tanktop img{
+    width: 100%;
+ }
+ .tanktop h3{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: 90;
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .tanktop p{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 17px;
+    color: rgb(171, 171, 171);
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .tanktop h4{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .corater{
+    width: 400px;
+    height: 450px;
+    background-color: white;
+ }
+ .corater img{
+    width: 350px;
+   padding-left: 80px;
+   padding-top: 50px;
+ }
+ .corater h3{
+    margin-top: 60px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: 90;
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .corater p{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 17px;
+    color: rgb(171, 171, 171);
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .corater h4{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .polo{
+    width: 400px;
+    height: 450px;
+    background-color: white;
+ }
+ .polo img{
+    width: 100%;
+ }
+ .polo h3{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: 90;
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .polo p{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 17px;
+    color: rgb(171, 171, 171);
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .polo h4{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .arrows{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size: 30px;
+    color: gray;
+    margin-left:650px ;
+    margin-right:650px ;
+ }
+ /*Start Products section*/
+
+ /*Start sale section*/
+ .sale {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .titlesale{
+    margin-top: 70px;
+ }
+ .titlesale h2{
+    padding-top: 60px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: overline ;
+    text-decoration-color: blueviolet;
+    text-decoration-thickness:3px ;
+    font-size: 30px;
+    font-weight: 100;
+ }
+ .sale img{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 700px;
+ }
+ .text-sale {
+   margin-right: 50px;
+ }
+ .text-sale h3{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    font-weight: 90;
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .text-sale h6{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 90;
+    color: rgb(157, 157, 157);
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .text-sale span{
+    color: blueviolet;
+    font-size: 20px;
+ }
+ .text-sale p{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: 50;
+    color: rgb(174, 174, 174);
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .text-sale button{
+    margin-left: 170px;
+ }
+.titlesale hr{
+    border-top:  rgb(207, 205, 205);
+    margin-top: 100px;
+}
+/*End sale section*/
+
+/*Start Footer*/
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-left:80px ;
+    margin-right:80px ;
+}
+.footerfirst h3{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 90;
+    color: rgb(62, 61, 61);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.footerfirst p{
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: 100;
+    color: rgb(174, 174, 174);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footersecond{
+    margin-top: 15px;
+}
+.footersecond p{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 100;
+    color: rgb(174, 174, 174);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footerthird{
+    margin-top: 15px;
+}
+.footerthird p{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 100;
+    color: rgb(174, 174, 174);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footerfourth{
+    margin-top: 50px;
+}
+.footerfourth h3{
+    font-size: 23px;
+    font-weight: 90;
+    color: rgb(62, 61, 61);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.footerfourth img{
+    height: 130px;
+}
+.footerfourth h4{
+    font-size: 18px;
+    font-weight: 90;
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+.footerfourth p{
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 100;
+    color: rgb(174, 174, 174);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footerfifth h3{
+    font-size: 23px;
+    font-weight: 90;
+    color: rgb(62, 61, 61);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.footerfifth p{
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 100;
+    color: rgb(106, 106, 106);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+.footerfifth i{
+    color: blueviolet;
+    font-size: 20px;
+    padding-right: 20px;
+}
+.footerfifth span{
+    margin-left: 38px;
+}
+.footerfifth form{
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.footerfifth form input{
+    position: absolute;
+    flex: 0.3;
+    border: 1px solid rgb(178, 178, 178);
+    padding:20px ;
+    padding-right: 132px;
+}
+.footerfifth form input:focus{
+    outline: none;
+}
+.sub{
+    font-size: 23px;
+    font-weight: 90;
+    color: rgb(62, 61, 61);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+.footerfifth form button{
+    position: relative;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    font-size: 16px;
+    padding: 16px 30px;
+    border-radius: 10px;
+    margin-left: 190px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/*End Footer*/
+
+/*Start After-Footer section*/
+.afterfooter{
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    margin-left: 400px;
+    margin-bottom: 70px;
+}
+.afterfooter h3{
+    font-size: 15px;
+    font-weight: 100;
+    color: rgb(106, 106, 106);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.afterfooter span{
+    color: blueviolet;
+    font-size: 20px;
+}
+/*Start After-Footer section*/
+
+        /*End of first Page!!*/
+
+
+
+         /*Start of second Page!!*/
+
+
+/*Start About-small  section*/
+.About-smallsec{
+   background-color: rgb(232, 232, 232);
+   height: 80px;
+margin-top: -10px;
+}    
+.smallsecabout{
+   padding-top: 30px;
+   padding-left: 100px;
+}
+.smallsecabout P{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px;
+   color: black;
+   font-weight: 600;
+}
+.smallsecabout span{
+   color: blueviolet;
+   font-weight: 200;
+}
+/*End About-small  section*/
+
+ /*Start About-main  section*/
+ .About-main{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 150px;
+   margin-top: 50px;
+ }
+ .About-mainimg img{
+   margin-top: 50px;
+    margin-left: 100px;
+    width: 650px;
+ }
+ .About-maintext hr{
+   color: blueviolet;
+   border: solid 1.5px;
+   margin-bottom: 15px;
+ }
+ .About-maintext{
+   font-family: Arial, Helvetica, sans-serif;
+   margin-right: 150px;
+   margin-bottom: 180px;
+ }
+ .About-maintext h2{
+   font-size: 30px;
+   margin-bottom: 25px;
+   font-weight: 400;
+ }
+ .About-maintext p{
+   font-weight: 100;
+   color: rgb(174, 174, 174);
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   padding: 5px;
+ }
+   
+
+ /*End About-main  section*/
+
+  /*Start Team section*/
+  .teamtitle {
+   align-items:center ;
+   justify-content: center;
+   margin-left: 620px;
+}
+.team hr{
+   color: blueviolet;
+   border: solid 1.5px;
+   margin-bottom: 20px;
+   margin-left: 50px;
+}
+.team h2{
+   font-size: 35px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.teammembers{
+   margin-top: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-left:100px ;
+   margin-right:100px ;
+   margin-bottom: 150px;
+}
+.Elizabeth img{
+   border-radius: 50%;
+   margin-bottom: 20px;
+   margin-left: 30px;
+
+}
+.Elizabeth h2{
+   font-size: 25px;
+   font-weight: 100;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+}
+.Elizabeth h6{
+   text-align: center;
+   font-size: 15px;
+    font-weight: 100;
+    color: rgb(183, 183, 183);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.Elizabeth p{
+   text-align: center;
+   font-size: 17px;
+    font-weight: 100;
+    color: rgb(142, 142, 142);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Jennifer img{
+   border-radius: 50%;
+   margin-bottom: 20px;
+   margin-left: 30px;
+
+}
+.Jennifer h2{
+   font-size: 25px;
+   font-weight: 100;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+}
+.Jennifer h6{
+   text-align: center;
+   font-size: 15px;
+    font-weight: 100;
+    color: rgb(183, 183, 183);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.Jennifer p{
+   text-align: center;
+   font-size: 17px;
+    font-weight: 100;
+    color: rgb(142, 142, 142);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Patrick img{
+   border-radius: 50%;
+   margin-bottom: 20px;
+   margin-left: 30px;
+
+}
+.Patrick h2{
+   font-size: 25px;
+   font-weight: 100;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+}
+.Patrick h6{
+   text-align: center;
+   font-size: 15px;
+    font-weight: 100;
+    color: rgb(183, 183, 183);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.Patrick p{
+   text-align: center;
+   font-size: 17px;
+    font-weight: 100;
+    color: rgb(142, 142, 142);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Mike img{
+   border-radius: 50%;
+   margin-bottom: 20px;
+   margin-left: 30px;
+
+}
+.Mike h2{
+   font-size: 25px;
+   font-weight: 100;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+}
+.Mike h6{
+   text-align: center;
+   font-size: 15px;
+    font-weight: 100;
+    color: rgb(183, 183, 183);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.Mike p{
+   text-align: center;
+   font-size: 17px;
+    font-weight: 100;
+    color: rgb(142, 142, 142);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+       /* End of Second page !!! */
+
+/* Start shop left section */
+.leftinshop{
+   margin-top: 100px;
+}
+
+
+.shopcategories {
+   border: solid 1px white;
+   box-shadow:2px 2px 2px 2px rgb(210, 210, 210);
+   width: 280px;
+   height: 200px;
+   margin-left: 100px;
+}
+.shopcategories h3{
+   margin-left: 30px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.shopcategories p{
+   text-decoration: none;
+   color: blueviolet;
+   padding:10px;
+   margin-left: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+.shopcategories span{
+   color: black;
+  padding-left: 100px;
+   text-align:end;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.filter{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.shopfilter {
+   margin-top: 20px;
+   border: solid 1px white;
+   box-shadow:2px 2px 2px 2px rgb(210, 210, 210);
+   width: 280px;
+   height: 450px;
+   margin-left: 100px;
+   position: relative;
+}
+.shopfilter h4{
+   margin-left: 30px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.range-slider {
+   width: 250px;
+   position: relative;
+   margin: 30px 0 30px 15px;
+ }
+ 
+ input[type=range] {
+   
+   width: 250px;
+   background: white; 
+   position: absolute;
+   
+ }
+ 
+ input[type=range]::-webkit-slider-thumb {
+   height: 15px;
+   width: 15px;
+   border-radius: 50%;
+   background: blueviolet;
+   cursor: pointer;
+   margin-top: -5px;
+   position: relative;
+   z-index: 1;
+   color: blueviolet;
+ }
+ 
+ input[type=range]::-webkit-slider-runnable-track {
+   width: 100%;
+   height: 8px;
+   background:white;
+   border-radius: 3px;
+   border: 1px solid blueviolet;
+ }
+ .range-slider p {
+   position: absolute;
+   margin-top: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+  color: rgb(142, 142, 142);
+ }
+.sizes{
+   position: relative;
+   margin-top: 100px;
+}
+.sizes h4{
+   font-family: Arial, Helvetica, sans-serif;
+}
+.sizes input{
+   margin-left: 30px;
+   margin-bottom: 20px;
+  
+   
+   
+}
+.sizes label{
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(142, 142, 142);
+   font-family: Arial, Helvetica, sans-serif;
+   margin-left: 20px;
+}
+.colors{
+   position: relative;
+}
+.colors .red i{
+   color: rgb(188, 0, 0);
+}
+.colors .green i{
+   color: green;
+}
+.colors .blue i{
+   color: blue;
+}
+.colors .purple i{
+   color: blueviolet;
+}
+.colors p{
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(142, 142, 142);
+  margin-left: 30px;
+}
+.colors span{
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(142, 142, 142);
+   margin-left: 20px;
+}
+.shoppage{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.shopall{
+   display: flex;
+   position: relative;
+   margin-top: -600px;
+   margin-left: 450px;
+}
+.tanktopinshop{
+   width: 500px;
+   height: 400px;
+   background-color: white;
+   border: solid 1px white;
+   box-shadow:2px 2px 2px 2px rgb(210, 210, 210);
+   margin-right: 20px;
+   width: 600px;
+}
+.tanktopinshop img{
+   width: 100%;
+}
+.tanktopinshop h3{
+   text-align: center;
+   padding-top: 30px;
+   font-size: 25px;
+   font-weight: 90;
+   color: blueviolet;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.tanktopinshop p{
+   text-align: center;
+   padding-top: 10px;
+   font-size: 17px;
+   color: rgb(171, 171, 171);
+   font-family: Arial, Helvetica, sans-serif;
+}
+.tanktopinshop h4{
+   text-align: center;
+   padding-top: 10px;
+   font-size: 20px;
+   color: blueviolet;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.coraterinshop{
+  margin-right: 20px;
+   width: 600px;
+   height: 400px;
+   border: solid 1px white;
+   box-shadow:2px 2px 2px 2px rgb(210, 210, 210);
+}
+.coraterinshop img{
+   width: 240px;
+  padding-left: 80px;
+  padding-top: 50px;
+}
+.coraterinshop h3{
+   margin-top: 60px;
+   text-align: center;
+   padding-top: 30px;
+   font-size: 25px;
+   font-weight: 90;
+   color: blueviolet;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.coraterinshop p{
+   text-align: center;
+   padding-top: 10px;
+   font-size: 17px;
+   color: rgb(171, 171, 171);
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.coraterinshop h4{
+   text-align: center;
+   padding-top: 10px;
+   font-size: 20px;
+   color: blueviolet;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.poloinshop{
+   margin-right: 70px;
+   width: 600px;
+   height: 400px;
+   background-color: white;
+   border: solid 1px white;
+   box-shadow:2px 2px 2px 2px rgb(210, 210, 210);
+}
+.poloinshop img{
+   width: 100%;
+}
+.poloinshop h3{
+   text-align: center;
+   padding-top: 30px;
+   font-size: 25px;
+   font-weight: 90;
+   color: blueviolet;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.poloinshop p{
+   text-align: center;
+   padding-top: 10px;
+   font-size: 17px;
+   color: rgb(171, 171, 171);
+   font-family: Arial, Helvetica, sans-serif;
+}
+.poloinshop h4{
+   text-align: center;
+   padding-top: 10px;
+   font-size: 20px;
+   color: blueviolet;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.shopall2{
+   display: flex;
+   position: relative;
+   margin-left: 450px;
+   margin-top: 30px;
+}
+.titles44{
+   margin-left: 450px;
+   position: relative;
+   top: 120px;
+}
+.titles44 h2{
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(104, 104, 104);
+   font-size: 25px;
+}
+.titlesoptions{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.dropdown {
+   width: 150px;
+  margin-top: 150px;
+  margin-left: -40px;
+   position: absolute;
+}
+.dropdown-select{
+   padding: 20px;
+   border-radius: 4px;
+   background-color:rgb(208, 208, 208) ;
+   width: 100%;
+   font-family: Arial, Helvetica, sans-serif;
+   display: flex;
+   align-items:center ;
+   justify-content: space-between;
+   margin-left: 1100px;
+   margin-top: 100px;
+   
+}
+.dropdown2 {
+   width: 150px;
+  margin-top: -158px;
+  margin-left: 160px;
+   position: absolute;
+}
+.dropdown-select2{
+   padding: 20px;
+   border-radius: 4px;
+   background-color:rgb(208, 208, 208) ;
+   width: 100%;
+   font-family: Arial, Helvetica, sans-serif;
+   display: flex;
+   align-items:center ;
+   justify-content: space-between;
+   margin-left: 1100px;
+   margin-top: 100px;
+   
+}
+.shopall3{
+   display: flex;
+   position: relative;
+   margin-left: 450px;
+   margin-top: 30px;
+}
+.Categoriesshop{
+   align-items: center;
+   justify-content: center;
+   margin-left: 650px;
+   margin-top: 200px;
+   margin-bottom: 100px;
+}
+.Categoriesshop h2{
+   font-family: Arial, Helvetica, sans-serif;
+    color: rgb(131, 131, 131);
+    font-size: 30px;
+}
+.About-maintext {
+  margin-top: 200px;
+}
+.About-mainimg{
+   margin-top: -150px;
+}
+.About-maintext h4{
+   margin-top: 20px;
+   color: blueviolet;
+   font-size: 25px;
+   margin-bottom: 30px;
+   font-weight: 100;
+}
+
+.About-maintext input{
+   margin-right: 20px;
+}
+.About-maintext label{
+   margin-right: 10px;
+}
+
+ 
+ input::-webkit-outer-spin-button,
+ input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+ }
+ 
+ .input-group {
+   clear: both;
+   margin: 15px 0;
+   position: relative;
+ }
+ 
+ .input-group input[type='button'] {
+   background-color: white;
+   min-width: 38px;
+   width: auto;
+   transition: all 300ms ease;
+ }
+
+ .input-group .button-minus,
+ .input-group .button-plus {
+   font-weight: bold;
+   height: 38px;
+   padding: 0;
+   width: 38px;
+   position: relative;
+   color: blueviolet;
+   border: solid 2px blueviolet;
+   background-color: white;
+   border-radius: 4px;
+   font-size: 15px;
+   transition: all 300ms ease;
+ }
+ 
+ .input-group .button-plus:hover {
+   background-color: blueviolet;
+   color: white;
+ }
+ .input-group .button-minus:hover{
+   background-color: blueviolet;
+   color: white;
+ }
+ 
+ .input-group .quantity-field {
+   position: relative;
+   height: 38px;
+   left: -6px;
+   text-align: center;
+   width: 62px;
+   display: inline-block;
+   font-size: 13px;
+   margin: 0 0 5px;
+   resize: vertical;
+   border: solid 1px rgb(241, 241, 241);
+ }
+ 
+ .button-plus {
+   left: -13px;
+ }
+ .button-minus {
+   left: 18px;
+ }
+ /* End SHirt Page */
+
+ /* Start Cart Page */
+ 
+  /* Start Table part */
+  table,td,tr{
+   border: 1px solid;
+   border-collapse: collapse;
+  
+  }
+  .imgtable{
+   padding: 20px;
+  }
+  .cancel{
+   appearance: none;
+   background-color:blueviolet;
+   border:  #1A1A1A;
+   border-radius: 10px;
+   box-sizing: border-box;
+   color: #FFFFFF;
+   cursor: pointer;
+   display: inline-block;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   font-weight: 100;
+   line-height: normal;
+   margin-top:50px;
+   min-height: 60px;
+   padding: 10px;
+   text-align: center;
+   text-decoration: none;
+   transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+   width: 70px;
+   will-change: transform;
+   margin-left:50px;
+   margin-bottom: 30px;
+ }
+ .cancel:hover {
+   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+   transform: translateY(-2px);
+ background-image: linear-gradient(rgb(0 0 0/10%) 0 0);
+ }
+  .remove{
+   width: 180px;
+   height: 100px;
+   text-align: center;
+   align-items: center;
+   
+  }
+  .remove h3{
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+  }
+  .totaltable{
+   width: 150px;
+   height: 100px;
+   text-align: center;
+   align-items: center;
+   
+  }
+  .totaltable h3{
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+  }
+  .quantitytable{
+   
+   width: 250px;
+   height: 100px;
+   text-align: center;
+   align-items: center;
+   
+  }
+  td .input-group .button-minus{
+   margin-right: 20px;
+  }
+  .quantitytable h3{
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+  }
+  .pricetable{
+   width: 180px;
+   height: 100px;
+   text-align: center;
+   align-items: center;
+   
+  }
+  .pricetable h3{
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+  }
+  .producttable{
+   width: 250px;
+   height: 100px;
+   text-align: center;
+   align-items: center;
+   
+  }
+  .producttable h3{
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size:15px;
+   
+  }
+  .imgtable1{
+   width: 200px;
+   height: 100px;
+   text-align: center;
+   align-items: center;
+  
+  }
+  .imgtable1 h3{
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+  }
+ 
+  .topup p{
+   margin-left: 70px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 600;
+   color: black;
+  }
+ 
+  .pricevalue h3{
+   margin-left: 60px;
+   font-family: Arial, Helvetica, sans-serif;
+   color:rgb(179, 179, 179) ;
+   font-size: 17px;
+   font-weight: 600;
+  }
+  td, tr{
+   color: rgb(220, 220, 220);
+  }
+  table{
+   margin-top: 100px;
+   margin-left: 100px;
+  }
+ 
+.buttonsss button{
+   width:300px;
+}
+.button-shop2{
+   appearance: none;
+    background-color:white;
+    border:  1px solid blueviolet;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: blueviolet;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: normal;
+    margin-top:50px;
+    min-height: 60px;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    width: 200px;
+    will-change: transform;
+    margin-left: 30px;
+  }
+  .button-shop2:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  background-image: linear-gradient(rgb(0 0 0/10%) 0 0);
+  }
+  .buttonsss{
+   margin-left: 100px;
+
+  }
+.coupon form{
+   border-radius: 5px;
+   display: flex;
+   align-items: center;
+}
+.coupon  form input{
+   position: absolute;
+   flex: 0.3;
+   border: 1px solid rgb(218, 218, 218);
+   padding:20px ;
+   padding-right: 132px;
+   width: 400px;
+   border-radius: 4px;
+}
+.coupon  form input:focus{
+   outline: none;
+}
+
+.coupon  form button{
+   position: relative;
+   border: none;
+   background-color: blueviolet;
+   color: white;
+   font-size: 16px;
+   padding: 16px 30px;
+   border-radius: 4px;
+   margin-left: 430px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.coupon {
+   margin-left: 100px;
+   margin-top: 50px;
+}
+.coupon h3 {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 30px;
+   color: rgb(94, 94, 94);
+}
+.coupon p{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   color: rgb(169, 169, 169);
+   margin-top: 10px;
+   margin-bottom: 20px;
+}
+.cartcheckout{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.carttotal{
+   margin-top: 200px;
+}
+.carttotal hr{
+   margin-right: 50px;
+   margin-top: 10px;
+}
+.carttotal h3{
+   margin-left: 220px;
+   margin-top: -80px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 25px;
+   color: rgb(94, 94, 94);
+}
+.carttotal p{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   color: rgb(109, 109, 109);
+   margin-top: 20px;
+}
+.total230{
+   margin-left:350px ;
+   margin-top: -20px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   color: rgb(109, 109, 109);
+   font-weight: 100;
+   
+}
+.carttotal button{
+   width: 350px;
+   border-radius: 4px;
+}
+.clickhere{
+   margin-top: 100px;
+   border: 1px solid rgb(217, 217, 217);
+   width: 1300px;
+   height: 90px;
+   margin-left: 70px;
+}
+.clickhere p{
+   margin-top: 35px;
+   margin-left: 70px;
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   color: rgb(161, 161, 161);
+}
+.clickhere a{
+   text-decoration: none;
+   color: blueviolet;
+}
+.checkout{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.Billingdetails{
+   margin-left: 70px;
+   margin-top: 60px;
+}
+.Billingdetails h3{
+   font-size: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(65, 65, 65);
+   margin-bottom: 10px;
+}
+.orderdetails{
+border: 2px solid rgb(220, 220, 220);
+margin-top: 15px;
+width: 620px;
+height: 1000px;
+}
+.countrytitle{
+   margin-left: 30px;
+   margin-top: 40px;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(94, 94, 94);
+   margin-bottom: 10px;
+}
+.orderdetails .country{
+   margin-left: 30px;
+   width: 550px;
+   height: 40px;
+   border: 2px solid rgb(220, 220, 220);
+   padding-left: 20px;
+   font-size: 16px;
+   border-radius: 4px;
+   
+}
+.orderdetails  .country::placeholder{
+   color: gray;
+   font-weight: 600;
+}
+.doubleform{
+   display: flex;
+margin-left: 30px;
+
+   align-items: center;
+} 
+.firstname {
+   margin-left: 30px;
+   margin-top: 20px;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(94, 94, 94);
+   margin-bottom: 15px;
+}
+.namess {
+   display: flex;
+}
+.lastname{
+   margin-left: 150px;
+   margin-top: 20px;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(94, 94, 94);
+   margin-bottom: 15px;
+}
+.firstnamein{
+   width: 200px;
+   height: 40px;
+   border: 2px solid rgb(220, 220, 220);
+   padding-left: 20px;
+   font-size: 16px;
+   border-radius: 4px;
+}
+.lastnamein{
+   width: 200px;
+   height: 40px;
+   border: 2px solid rgb(220, 220, 220);
+   padding-left: 20px;
+   font-size: 16px;
+   margin-left: 50px;
+   border-radius: 4px;
+}
+input:focus{
+   outline: none;
+}
+.required{
+   color: rgb(206, 0, 0);
+}
+.address{
+   margin-top: 20px;
+margin-left: 30px;
+width: 550px;
+height: 40px;
+border: 2px solid rgb(220, 220, 220);
+padding-left: 20px;
+font-size: 16px;
+border-radius: 4px;
+}
+.address::placeholder{
+   color: gray;
+   font-weight: 600;
+}
+.postalzip{
+margin-left: 110px;
+   margin-top: 20px;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(94, 94, 94);
+   margin-bottom: 15px;}
+   .firstcheckbox{
+      margin-left: 30px;
+      margin-top: 30px;
+      font-size: 18px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(94, 94, 94);
+      margin-bottom: 15px;
+   }
+.ordernotesin{
+   margin-left: 30px;
+   width: 550px;
+   height: 100px;
+   border: 2px solid rgb(220, 220, 220);
+   padding-left: 20px;
+   font-size: 16px;
+   border-radius: 4px 4px 30px 4px ;
+}
+.checkoutcoupon{
+margin-top:-25px;
+}
+.couponin{
+   border: 2px solid rgb(220, 220, 220);
+margin-top: 15px;
+width: 650px;
+height: 190px;
+}
+.couponcheck form{
+   border-radius: 5px;
+   display: flex;
+   align-items: center;
+}
+.couponcheck  form input{
+   position: absolute;
+   flex: 0.3;
+   border: 1px solid rgb(218, 218, 218);
+   padding:20px ;
+   padding-right: 132px;
+   width: 400px;
+   border-radius: 4px;
+   margin-left: 30px;
+}
+.couponcheck  form input::placeholder{
+   color: gray;
+   font-weight: 600;
+   font-size: 15px;
+}
+.couponcheck  form input:focus{
+   outline: none;
+}
+
+.couponcheck  form button{
+   position: relative;
+   border: none;
+   background-color: blueviolet;
+   color: white;
+   font-size: 16px;
+   padding: 17px 30px;
+   border-radius: 4px;
+   margin-left: 320px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.couponcheck {
+   margin-left: -705px;
+   margin-top: 50px;
+}
+.couponcheck h3 {
+   font-size: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(65, 65, 65);
+   margin-bottom: 10px;
+}
+.orderdetailss{
+border: 2px solid rgb(220, 220, 220);
+margin-top: 15px;
+width: 650px;
+height: 680px;
+
+}
+.yourorderp{
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: black;
+   font-weight: 600;
+   margin-top: 70px;
+   margin-left: 50px;
+}
+.orderdetailss h4{
+   margin-top: -20px;
+   margin-left: 450px;
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: black;
+   font-weight: 600;
+}
+.orderdetailss hr{
+margin-left: 50px;
+margin-top: 10px;
+}
+.yourorderproduct{
+   font-size: 17px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: black;
+   font-weight: 100;
+   margin-top: 20px;
+   margin-left: 50px;
+}
+.orderdetailss h6{
+   margin-top: -20px;
+   margin-left: 450px;
+   font-size: 17px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: black;
+   font-weight: 100;
+}
+.subtotal{
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: black;
+   font-weight: 600;
+   margin-top: 20px;
+   margin-left: 50px;
+}
+.subtotalvalue{
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: black;
+   font-weight: 600;
+   margin-top: -20px;
+   margin-left: 450px;
+}
+.banktransfer{
+   border: 2px solid rgb(220, 220, 220);
+   width: 580px;
+   margin-top: 100px;
+   margin-left: 30px;
+   margin-right: 60px;
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: black;
+   font-weight: 600;
+   height: 60px;
+   
+}
+.banktransfer p{
+   margin-left: 25px;
+   margin-top: 20px;
+   color: blueviolet;
+   font-weight: 100;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.cheque{
+   border: 2px solid rgb(220, 220, 220);
+   width: 580px;
+   margin-top: 20px;
+   margin-left: 30px;
+   margin-right: 60px;
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: black;
+   font-weight: 600;
+   height: 60px;
+}
+.cheque p{
+   margin-left: 25px;
+   margin-top: 20px;
+   color: blueviolet;
+   font-weight: 100;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.proceedtocheckout button{
+width: 580px;
+margin-left: 30px;
+   margin-right: 60px;
+   border-radius: 4px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.Thanks{
+   align-items: center;
+   text-align: center;
+   margin-top: 100px;
+}
+.Thanks i{
+   font-size: 100px;
+   color: rgb(2, 180, 2);
+}
+.Thanks h1{
+   font-size: 80px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.Thanks p{
+   font-size: 25px;
+   color: rgb(171, 171, 171);
+   font-family: Arial, Helvetica, sans-serif;
+}
