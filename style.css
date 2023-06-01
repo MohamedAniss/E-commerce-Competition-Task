@@ -82,6 +82,23 @@ hr{
 .nav-down a:hover{
     color: blueviolet;
 }
+.abooutlist{
+   position: absolute;
+   display: none;
+}
+
+.abooutlist li{
+   color: blueviolet;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   padding: 5px;
+}
+.aboutdropdown{
+   position: relative;
+}
+.aboutdropdown:hover .abooutlist{
+display: block;
+}
 .nav-down i{
     margin-left: 5px;
 }
@@ -237,17 +254,21 @@ hr{
  .categories img{
     width: 350px;
 
-    
+   
  }
  .women{
     position: relative;
+     overflow: hidden;
  } 
  .women img{
     filter: brightness(70%);
     transition:all .5s ease-in-out;
+    
  }
  .women img:hover{
+  
     transform: scale(1.1);
+   
  }
  .women p{
     font-family: Arial, Helvetica, sans-serif;
@@ -268,6 +289,7 @@ hr{
     font-weight: 600;
  }
  .child {
+   overflow: hidden;
     position: relative;
  }
  .child img{
@@ -296,6 +318,7 @@ hr{
     font-weight: 600;
  }
  .men{
+   overflow: hidden;
     position: relative;
  }
  .men img{
